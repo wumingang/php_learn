@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	position:relative;
+	font: normal 100% simsun;
+	background-image:url(../i/bg.png);
+	background-repeat:no-repeat;
+	
+	background-size:100% 100%;
+	min-width:480px;
+	min-height:700px;
+}
+
+.w{
+	width:95%;
+	margin:0 auto;
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+}
+
+#home{
+	width:100%;
+	height:100px;
+}
+#home .w{
+	height:100px;
+	background:#fff;
+	background:red;
+	border-radius:1em 1em 0 0;
+}
