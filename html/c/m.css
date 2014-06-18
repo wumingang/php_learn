@@ -29,8 +29,14 @@ footer{
 	height:100px;
 }
 #home .w{
-	height:100px;
+	height:100%;
 	background:#fff;
-	background:red;
 	border-radius:1em 1em 0 0;
+}
+#home a{
+	display:block;
+	width:16%;
+	margin:0 16%;
+	background:red;
+	font-size:0;
 }
